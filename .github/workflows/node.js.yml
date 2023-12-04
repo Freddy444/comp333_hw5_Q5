@@ -25,7 +25,11 @@ jobs:
 
       # Installs dependencies using npm
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          npm install reactstrap
+          npm install js-cookie
+          npm install react-router-dom
 
       # Runs the unit tests using npm
       - name: Run tests
