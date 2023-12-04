@@ -30,6 +30,8 @@ jobs:
           npm install reactstrap
           npm install js-cookie
           npm install react-router-dom
+          npm install axios
+
 
       # Runs the unit tests using npm
       - name: Run tests
