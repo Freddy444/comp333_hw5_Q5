@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRou
 import userEvent from '@testing-library/user-event';
 import LoginView from './loginview';
 import { MemoryRouter } from 'react-router-dom';
-import axios from 'axios';
+const axios = require('axios');
 import { BrowserRouter } from 'react-router-dom';
 
 
