@@ -50,8 +50,8 @@
   "transform": {
     "^.+\\.(js|jsx|ts|tsx|mjs)$": "babel-jest",
   },
-  "type": "module",  // Add this line to support ECMAScript Modules
-  "extensionsToTreatAsEsm": [".js", ".jsx"]  // Add this line to specify file extensions for ESM
+  "type": "module",  
+  "extensionsToTreatAsEsm": [".js", ".jsx"]  
 }
 
 }
