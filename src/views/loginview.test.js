@@ -1,10 +1,10 @@
-import React from 'react';
+const React = require('react');
 import { render, screen, fireEvent, act,  waitFor } from '@testing-library/react';
 import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRouter
 import userEvent from '@testing-library/user-event';
 import LoginView from './loginview';
 import { MemoryRouter } from 'react-router-dom';
-import axios from 'axios';
+const axios = require('axios');
 import { BrowserRouter } from 'react-router-dom';
 
 
