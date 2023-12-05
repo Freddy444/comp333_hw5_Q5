@@ -1,7 +1,7 @@
 const React = require('react');
 const { render, screen, fireEvent, act, waitFor } = require('@testing-library/react');
 const { BrowserRouter: Router, MemoryRouter } = require('react-router-dom'); // Import BrowserRouter
-const userEvent = require('@testing-library/user-event');
+import userEvent from '@testing-library/user-event';
 import LoginView from './loginview';
 import axios from 'axios';
 
