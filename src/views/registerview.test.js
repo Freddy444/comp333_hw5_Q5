@@ -1,10 +1,8 @@
 const React = require('react');
-import { render, screen,fireEvent } from '@testing-library/react';
-import { MemoryRouter } from 'react-router-dom'; // Import MemoryRouter
-import RegisterView from './registerview';
+const { render, screen, fireEvent, waitFor } = require('@testing-library/react');
+const { MemoryRouter } = require('react-router-dom'); // Import MemoryRouter
+const RegisterView = require('./registerview');
 const axios = require('axios');
-import { waitFor } from '@testing-library/react';
-
 
 jest.mock('axios');
 
