@@ -1,8 +1,8 @@
-import React from 'react';
+const React = require('react');
 import { render, screen,fireEvent } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom'; // Import MemoryRouter
 import RegisterView from './registerview';
-import axios from 'axios'; // Add this import
+const axios = require('axios');
 import { waitFor } from '@testing-library/react';
 
 
