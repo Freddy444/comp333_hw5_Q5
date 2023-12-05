@@ -3,7 +3,7 @@ const { render, screen, fireEvent, act, waitFor } = require('@testing-library/re
 const { BrowserRouter: Router, MemoryRouter } = require('react-router-dom'); // Import BrowserRouter
 const userEvent = require('@testing-library/user-event');
 import LoginView from './loginview';
-const axios = require('axios');
+import axios from 'axios';
 
 jest.mock('axios');
 
